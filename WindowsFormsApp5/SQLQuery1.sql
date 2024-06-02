@@ -1,17 +1,17 @@
-﻿IF OBJECT_ID('dbo.Accounts', 'U') IS NOT NULL  
-  DROP TABLE dbo.Accounts;
+﻿--﻿IF OBJECT_ID('dbo.Accounts', 'U') IS NOT NULL  
+--  DROP TABLE dbo.Accounts;
 
-IF OBJECT_ID('dbo.Students', 'U') IS NOT NULL  
-  DROP TABLE dbo.Students;
+--IF OBJECT_ID('dbo.Students', 'U') IS NOT NULL  
+--  DROP TABLE dbo.Students;
 
-IF OBJECT_ID('dbo.Classes', 'U') IS NOT NULL  
-  DROP TABLE dbo.Classes;
+--IF OBJECT_ID('dbo.Classes', 'U') IS NOT NULL  
+--  DROP TABLE dbo.Classes;
 
-IF OBJECT_ID('dbo.Teachers', 'U') IS NOT NULL  
-  DROP TABLE dbo.Teachers;
+--IF OBJECT_ID('dbo.Teachers', 'U') IS NOT NULL  
+--  DROP TABLE dbo.Teachers;
 
-IF OBJECT_ID('dbo.Roles', 'U') IS NOT NULL  
-  DROP TABLE dbo.Roles;
+--IF OBJECT_ID('dbo.Roles', 'U') IS NOT NULL  
+--  DROP TABLE dbo.Roles;
 
 
 
@@ -34,6 +34,7 @@ CREATE TABLE Students (
     last_name NVARCHAR(255),
     email NVARCHAR(255) NOT NULL UNIQUE,
     password NVARCHAR(255) NOT NULL UNIQUE,
+    IsHomeworkDone BIT NOT NULL,
     class_id INT,
     FOREIGN KEY (class_id) REFERENCES Classes(class_id)
 );
@@ -75,8 +76,8 @@ INSERT INTO Accounts(name, email, password, role_id) VALUES
 ('Stepan', 'stepan.bandera@itstep.com', 'Bandera_Top1', 2),
 ('Mikola', 'mikola.cros@gmail.com', 'crutoiPots228', 2);
 
-INSERT INTO Students (first_name, last_name, email, password, class_id) VALUES
-('John', 'Doe', 'john.doe01@example.com', 'Pass01', 1),
+INSERT INTO Students (first_name, last_name, email, password,IsHomeworkDone, class_id) VALUES
+('John', 'Doe', 'john.doe01@example.com','Pass01', 1),
 ('Jane', 'Smith', 'jane.smith02@example.com', 'Pass02', 1),
 ('Michael', 'Brown', 'michael.brown03@example.com', 'Pass03', 1),
 ('Emily', 'Davis', 'emily.davis04@example.com', 'Pass04', 1),

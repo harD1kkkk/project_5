@@ -30,17 +30,20 @@ namespace WindowsFormsApp5.Forms_For_HeadTeacher
         private void ShowAllStudents()
         {
             listView1.Items.Clear();
-            List<Student> Students = accountController.GetAllStudents();
-            Students.ForEach(Student =>
+            List<Student> students = accountController.GetAllStudents();
+            students.ForEach(student =>
             {
-                ListViewItem item = new ListViewItem(Student.Id.ToString());
-                item.SubItems.Add(Student.FirstName);
-                item.SubItems.Add(Student.LastName);
-                item.SubItems.Add(Student.Email);
-                item.SubItems.Add(Student.Password);
-                item.SubItems.Add(Student.Class_id.ToString());
+                ListViewItem item = new ListViewItem(student.Id.ToString());
+                item.SubItems.Add(student.FirstName);
+                item.SubItems.Add(student.LastName);
+                item.SubItems.Add(student.Email);
+                item.SubItems.Add(student.Password);
+                item.SubItems.Add(student.IsHomeworkDone ? "COMPLETED" : "NOT COMPLETED");
+                item.SubItems.Add(student.NameTeacher);
+                item.SubItems.Add(student.Class_name);
                 listView1.Items.Add(item);
             });
         }
+
     }
 }

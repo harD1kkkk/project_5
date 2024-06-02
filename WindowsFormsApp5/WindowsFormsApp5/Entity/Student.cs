@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WindowsFormsApp5.Entity
+﻿namespace WindowsFormsApp5.Entity
 {
     public class Student
     {
@@ -13,16 +7,20 @@ namespace WindowsFormsApp5.Entity
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public int Class_id { get; set; }
+        public bool IsHomeworkDone { get; set; } = false;
+        public string NameTeacher { get; set; }
+        public string Class_name { get; set; }
 
-        public Student(int id, string firstName, string lastName, string email, string password, int class_id)
+        public Student(int id, string firstName, string lastName, string email, string password, bool isHomeworkDone, string nameTeacher, string class_name)
         {
             Id = id;
             FirstName = firstName;
             LastName = lastName;
             Email = email;
             Password = password;
-            Class_id = class_id;
+            IsHomeworkDone = isHomeworkDone;
+            NameTeacher = nameTeacher;
+            Class_name = class_name;
         }
     }
 }

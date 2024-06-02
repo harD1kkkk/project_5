@@ -25,3 +25,10 @@ C:\Users\arthu\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsF
 C:\Users\arthu\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Forms_For_HeadTeacher.Update_Account.resources
 C:\Users\arthu\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Forms_For_HeadTeacher.Get_Account_By_ID.resources
 C:\Users\arthu\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Forms_For_HeadTeacher.Show_All_Students.resources
+C:\Users\student\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Forms_For_HeadTeacher.Delete_Account.resources
+C:\Users\student\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Forms_For_HeadTeacher.Get_Account_By_ID.resources
+C:\Users\student\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Forms_For_HeadTeacher.Head_Teacher_options.resources
+C:\Users\student\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Forms_For_Teacher.Create_Account.resources
+C:\Users\student\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Forms_For_HeadTeacher.Show_All_Accounts.resources
+C:\Users\student\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Forms_For_HeadTeacher.Show_All_Students.resources
+C:\Users\student\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Forms_For_HeadTeacher.Update_Account.resources

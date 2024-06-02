@@ -26,10 +26,13 @@ namespace WindowsFormsApp5
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string name = textBox1.Text;
-            string email = textBox3.Text;
-            string password = textBox2.Text;
+            //string name = textBox1.Text;
+            //string email = textBox3.Text;
+            //string password = textBox2.Text;
 
+            string name = "Tomas";
+            string email = "tomas.gerada@gmail.com";
+            string password = "5dasdsaASd";
             Response<Account> response = accountController.SignIn(name, email, password);
 
             if (response.errorMessage != null)

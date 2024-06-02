@@ -14,7 +14,11 @@ namespace ConsoleApp1.Repository
         {
             List<Account> accounts = new List<Account>();
 
-            string query = "select * from Accounts";
+            string query = @"
+        SELECT Accounts.*, Roles.role_name
+        FROM Accounts
+        JOIN Roles ON Accounts.role_id = Roles.role_id
+            ";
             using (SqlCommand cmd = new SqlCommand(query, connection))
             {
                 using (SqlDataReader reader = cmd.ExecuteReader())
@@ -25,8 +29,9 @@ namespace ConsoleApp1.Repository
                         string name = Convert.ToString(reader["name"]);
                         string email = Convert.ToString(reader["email"]);
                         string password = Convert.ToString(reader["password"]);
+                        string roleName = Convert.ToString(reader["role_name"]);
                         int role_id = Convert.ToInt32(reader["role_id"]);
-                        Account account = new Account(id, name, email, password, role_id);
+                        Account account = new Account(id, name, email, password, roleName, role_id);
                         accounts.Add(account);
                     }
                 }
@@ -54,7 +59,11 @@ namespace ConsoleApp1.Repository
 
         public Account GetId(SqlConnection connection, int id)
         {
-            string query = $"select * from Accounts WHERE id=@id";
+            string query = @"
+        SELECT Accounts.*, Roles.role_name 
+        FROM Accounts 
+        JOIN Roles ON Accounts.role_id = Roles.role_id
+        WHERE id=@id";
             int id2 = 0;
             Account account = null;
             using (SqlCommand cmd = new SqlCommand(query, connection))
@@ -68,6 +77,7 @@ namespace ConsoleApp1.Repository
                         string name = Convert.ToString(reader["name"]);
                         string email = Convert.ToString(reader["email"]);
                         string password = Convert.ToString(reader["password"]);
+                        string roleName = Convert.ToString(reader["role_name"]);
                         int role_id = Convert.ToInt32(reader["role_id"]);
 
                         Console.WriteLine("id: " + id);
@@ -75,7 +85,7 @@ namespace ConsoleApp1.Repository
                         Console.WriteLine("email: " + email);
                         Console.WriteLine("password: " + password);
                         Console.WriteLine("role id: " + role_id);
-                        account = new Account(id, name, email, password, role_id);
+                        account = new Account(id, name, email, password, roleName, role_id);
                     }
                 }
             }
@@ -89,7 +99,11 @@ namespace ConsoleApp1.Repository
 
         public Account GetName(SqlConnection connection, string name)
         {
-            string query = $"select * from Accounts WHERE name=@name";
+            string query = @"
+        SELECT Accounts.*, Roles.role_name 
+        FROM Accounts 
+        JOIN Roles ON Accounts.role_id = Roles.role_id
+        WHERE name=@name";
             string name2 = "";
             Account account = null;
             using (SqlCommand cmd = new SqlCommand(query, connection))
@@ -104,7 +118,8 @@ namespace ConsoleApp1.Repository
                         string email = Convert.ToString(reader["email"]);
                         string password = Convert.ToString(reader["password"]);
                         int role_id = Convert.ToInt32(reader["role_id"]);
-                        account = new Account(id, name, email, password, role_id);
+                        string roleName = Convert.ToString(reader["role_name"]);
+                        account = new Account(id, name, email, password, roleName, role_id);
                     }
                 }
             }
@@ -118,7 +133,11 @@ namespace ConsoleApp1.Repository
 
         public Account GetEmail(SqlConnection connection, string email)
         {
-            string query = $"select * from Accounts WHERE email=@email";
+            string query = @"
+        SELECT Accounts.*, Roles.role_name 
+        FROM Accounts 
+        JOIN Roles ON Accounts.role_id = Roles.role_id 
+        WHERE email=@email";
             string email2 = "";
             Account account = null;
             using (SqlCommand cmd = new SqlCommand(query, connection))
@@ -133,7 +152,8 @@ namespace ConsoleApp1.Repository
                         email2 = Convert.ToString(reader["email"]);
                         string password = Convert.ToString(reader["password"]);
                         int role_id = Convert.ToInt32(reader["role_id"]);
-                        account = new Account(id, name, email, password, role_id);
+                        string roleName = Convert.ToString(reader["role_name"]);
+                        account = new Account(id, name, email, password, roleName, role_id);
                     }
                 }
             }
@@ -147,7 +167,11 @@ namespace ConsoleApp1.Repository
 
         public Account GetPassword(SqlConnection connection, string password)
         {
-            string query = $"select * from Accounts WHERE password=@password";
+            string query = @"
+        SELECT Accounts.*, Roles.role_name 
+        FROM Accounts 
+        JOIN Roles ON Accounts.role_id = Roles.role_id
+        WHERE password=@password";
             string password2 = "";
             Account account = null;
             using (SqlCommand cmd = new SqlCommand(query, connection))
@@ -162,7 +186,8 @@ namespace ConsoleApp1.Repository
                         string email = Convert.ToString(reader["email"]);
                         password2 = Convert.ToString(reader["password"]);
                         int role_id = Convert.ToInt32(reader["role_id"]);
-                        account = new Account(id, name, email, password, role_id);
+                        string roleName = Convert.ToString(reader["role_name"]);
+                        account = new Account(id, name, email, password, roleName, role_id);
                     }
                 }
             }
@@ -176,7 +201,12 @@ namespace ConsoleApp1.Repository
 
         public Account GetRole_Id(SqlConnection connection, string name, string email, string password)
         {
-            string query = "SELECT * FROM Accounts WHERE name = @name AND email = @email AND password = @password";
+            string query = @"
+        SELECT Accounts.*, Roles.role_name 
+        FROM Accounts 
+        JOIN Roles ON Accounts.role_id = Roles.role_id
+        WHERE Accounts.name = @name AND Accounts.email = @email AND password = @password
+    ";
             string name2 = "";
             string email2 = "";
             string password2 = "";
@@ -195,7 +225,8 @@ namespace ConsoleApp1.Repository
                         email2 = Convert.ToString(reader["email"]);
                         password2 = Convert.ToString(reader["password"]);
                         int role_id = Convert.ToInt32(reader["role_id"]);
-                        account = new Account(id, name2, email2, password2, role_id);
+                        string roleName = Convert.ToString(reader["role_name"]);
+                        account = new Account(id, name2, email2, password2, roleName, role_id);
                     }
                 }
             }
@@ -242,7 +273,13 @@ namespace ConsoleApp1.Repository
 
         public Account GetAccountByNameEmailPassword(SqlConnection connection, string name, string email, string password)
         {
-            string query = "SELECT * FROM Accounts WHERE name = @name AND email = @email AND password = @password";
+            string query = @"
+        SELECT Accounts.*, Roles.role_name 
+        FROM Accounts 
+        JOIN Roles ON Accounts.role_id = Roles.role_id
+        WHERE Accounts.name = @name AND Accounts.email = @email AND password = @password
+    ";
+
             string name2 = "";
             string email2 = "";
             string password2 = "";
@@ -261,7 +298,8 @@ namespace ConsoleApp1.Repository
                         email2 = Convert.ToString(reader["email"]);
                         password2 = Convert.ToString(reader["password"]);
                         int role_id = Convert.ToInt32(reader["role_id"]);
-                        account = new Account(id, name, email, password, role_id);
+                        string roleName = Convert.ToString(reader["role_name"]);
+                        account = new Account(id, name, email, password, roleName, role_id);
                     }
                 }
             }
@@ -277,8 +315,24 @@ namespace ConsoleApp1.Repository
         public List<Student> GetAllStudents(SqlConnection connection)
         {
             List<Student> students = new List<Student>();
+            string query = @"
+SELECT 
+    Students.student_id, 
+    Students.first_name, 
+    Students.last_name, 
+    Students.email, 
+    Students.password, 
+    Students.IsHomeworkDone, 
+    Teachers.teacher_name, 
+    Classes.class_name, 
+    Classes.class_id 
+FROM 
+    Students 
+JOIN 
+    Classes ON Students.class_id = Classes.class_id
+JOIN 
+    Teachers ON Classes.teacher_id = Teachers.teacher_id";
 
-            string query = "select * from Students";
             using (SqlCommand cmd = new SqlCommand(query, connection))
             {
                 using (SqlDataReader reader = cmd.ExecuteReader())
@@ -290,13 +344,16 @@ namespace ConsoleApp1.Repository
                         string last_name = Convert.ToString(reader["last_name"]);
                         string email = Convert.ToString(reader["email"]);
                         string password = Convert.ToString(reader["password"]);
-                        int class_id = Convert.ToInt32(reader["class_id"]);
-                        Student student = new Student(id, first_name, last_name, email, password, class_id);
+                        bool isHomeworkDone = Convert.ToBoolean(reader["IsHomeworkDone"]);
+                        string teacher_name = Convert.ToString(reader["teacher_name"]);
+                        string class_name = Convert.ToString(reader["class_name"]);
+                        Student student = new Student(id, first_name, last_name, email, password, isHomeworkDone, teacher_name, class_name);
                         students.Add(student);
                     }
                 }
             }
             return students;
         }
+
     }
 }

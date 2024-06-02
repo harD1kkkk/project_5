@@ -33,6 +33,7 @@ namespace WindowsFormsApp5.Forms_For_HeadTeacher
                 item.SubItems.Add(account.Name);
                 item.SubItems.Add(account.Email);
                 item.SubItems.Add(account.Password);
+                item.SubItems.Add(account.Role_Name);
                 item.SubItems.Add(account.Role_Id.ToString());
                 listView1.Items.Add(item);
             }
@@ -40,6 +41,11 @@ namespace WindowsFormsApp5.Forms_For_HeadTeacher
             {
                 MessageBox.Show("Account not exist.");
             }
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
