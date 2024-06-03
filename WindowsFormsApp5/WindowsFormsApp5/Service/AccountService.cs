@@ -35,6 +35,24 @@ namespace ConsoleApp1.Service
             return accounts;
         }
 
+        public List<Teacher> GetAllTeachers()
+        {
+            List<Teacher> teachers = null;
+            using (SqlConnection conection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conection.Open();
+                    teachers = accountRepository.GetAllTeachers(conection);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            return teachers;
+        }
+
 
         public int CreateNewAccount(string name, string email, string password, int role_id)
         {
@@ -55,6 +73,24 @@ namespace ConsoleApp1.Service
             return 0;
         }
 
+        public int CreateNewTeacher(string first_name,string last_name, string email, string password,int class_id)
+        {
+            using (SqlConnection conection = new SqlConnection(connectionString))
+            {
+
+                try
+                {
+                    conection.Open();
+                    accountRepository.CreateNewTeacher(conection, first_name, last_name, email,password,class_id);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+
+            return 0;
+        }
 
         public Account GetId(int id)
         {
@@ -76,6 +112,30 @@ namespace ConsoleApp1.Service
                 }
             }
             return account;
+
+        }
+
+
+        public Teacher Get_Teacher_Id(int id)
+        {
+            Teacher teacher = null;
+            using (SqlConnection conection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conection.Open();
+                    teacher = accountRepository.Get_Teacher_Id(conection, id);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                if (teacher == null)
+                {
+                    MessageBox.Show("Teacher with id: " + id + " not exist");
+                }
+            }
+            return teacher;
 
         }
 
@@ -192,6 +252,28 @@ namespace ConsoleApp1.Service
             }
         }
 
+        public void DeleteTeacher(int id)
+        {
+            if (Get_Teacher_Id(id) == null)
+            {
+                MessageBox.Show("Error: Teacher with id: " + id + "not exist");
+            }
+            else
+            {
+                using (SqlConnection conection = new SqlConnection(connectionString))
+                {
+                    try
+                    {
+                        conection.Open();
+                        accountRepository.DeleteTeacher(conection, id);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+            }
+        }
 
         public void UpdateAccount(int id, string name, string email, string password, int role_id)
         {
@@ -215,6 +297,30 @@ namespace ConsoleApp1.Service
                 }
             }
         }
+
+        public void UpdateTeacher(int id,string first_name, string last_name, string email, string password, int class_id)
+        {
+            if (Get_Teacher_Id(id) == null)
+            {
+                MessageBox.Show("Error: Teacher with id: " + id + "not exist");
+            }
+            else
+            {
+                using (SqlConnection conection = new SqlConnection(connectionString))
+                {
+                    try
+                    {
+                        conection.Open();
+                        accountRepository.UpdateTeacher(conection, id, first_name, last_name, email, password, class_id);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+            }
+        }
+
 
 
         public Account SignIn(string name, string email, string password)

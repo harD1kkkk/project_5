@@ -50,22 +50,23 @@
     <Compile Include="Controller\AccountController.cs" />
     <Compile Include="Entity\Account.cs" />
     <Compile Include="Entity\Student.cs" />
+    <Compile Include="Entity\Teacher.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Account\Delete_Account.cs">
+    <Compile Include="Forms_For_HeadTeacher\Options_Director\Delete_Director.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Account\Delete_Account.Designer.cs">
-      <DependentUpon>Delete_Account.cs</DependentUpon>
+    <Compile Include="Forms_For_HeadTeacher\Options_Director\Delete_Director.Designer.cs">
+      <DependentUpon>Delete_Director.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Account\Get_Account_By_ID.cs">
+    <Compile Include="Forms_For_HeadTeacher\Options_Director\Get_Account_By_ID.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Account\Get_Account_By_ID.Designer.cs">
+    <Compile Include="Forms_For_HeadTeacher\Options_Director\Get_Account_By_ID.Designer.cs">
       <DependentUpon>Get_Account_By_ID.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms_For_HeadTeacher\Head_Teacher_options.cs">
@@ -74,17 +75,17 @@
     <Compile Include="Forms_For_HeadTeacher\Head_Teacher_options.Designer.cs">
       <DependentUpon>Head_Teacher_options.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Account\Create_Account.cs">
+    <Compile Include="Forms_For_HeadTeacher\Options_Director\Create_Director.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Account\Create_Account.Designer.cs">
-      <DependentUpon>Create_Account.cs</DependentUpon>
+    <Compile Include="Forms_For_HeadTeacher\Options_Director\Create_Director.Designer.cs">
+      <DependentUpon>Create_Director.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Account\Show_All_Accounts.cs">
+    <Compile Include="Forms_For_HeadTeacher\Options_Director\Show_All_Directors.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Account\Show_All_Accounts.Designer.cs">
-      <DependentUpon>Show_All_Accounts.cs</DependentUpon>
+    <Compile Include="Forms_For_HeadTeacher\Options_Director\Show_All_Directors.Designer.cs">
+      <DependentUpon>Show_All_Directors.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms_For_HeadTeacher\Options_Students\Show_All_Students.cs">
       <SubType>Form</SubType>
@@ -92,11 +93,23 @@
     <Compile Include="Forms_For_HeadTeacher\Options_Students\Show_All_Students.Designer.cs">
       <DependentUpon>Show_All_Students.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Account\Update_Account.cs">
+    <Compile Include="Forms_For_HeadTeacher\Options_Director\Update_Director.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Account\Update_Account.Designer.cs">
-      <DependentUpon>Update_Account.cs</DependentUpon>
+    <Compile Include="Forms_For_HeadTeacher\Options_Director\Update_Director.Designer.cs">
+      <DependentUpon>Update_Director.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_For_HeadTeacher\Options_Teacher\Create_Teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_For_HeadTeacher\Options_Teacher\Create_Teacher.Designer.cs">
+      <DependentUpon>Create_Teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_For_HeadTeacher\Options_Teacher\Show_All_Teachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_For_HeadTeacher\Options_Teacher\Show_All_Teachers.Designer.cs">
+      <DependentUpon>Show_All_Teachers.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms_For_Teacher\Teacher_options.cs">
       <SubType>Form</SubType>
@@ -118,26 +131,29 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Account\Delete_Account.resx">
-      <DependentUpon>Delete_Account.cs</DependentUpon>
+    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Director\Delete_Director.resx">
+      <DependentUpon>Delete_Director.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Account\Get_Account_By_ID.resx">
+    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Director\Get_Account_By_ID.resx">
       <DependentUpon>Get_Account_By_ID.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_For_HeadTeacher\Head_Teacher_options.resx">
       <DependentUpon>Head_Teacher_options.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Account\Create_Account.resx">
-      <DependentUpon>Create_Account.cs</DependentUpon>
+    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Director\Create_Director.resx">
+      <DependentUpon>Create_Director.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Account\Show_All_Accounts.resx">
-      <DependentUpon>Show_All_Accounts.cs</DependentUpon>
+    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Director\Show_All_Directors.resx">
+      <DependentUpon>Show_All_Directors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Students\Show_All_Students.resx">
       <DependentUpon>Show_All_Students.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Account\Update_Account.resx">
-      <DependentUpon>Update_Account.cs</DependentUpon>
+    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Director\Update_Director.resx">
+      <DependentUpon>Update_Director.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Teacher\Show_All_Teachers.resx">
+      <DependentUpon>Show_All_Teachers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -39,6 +39,36 @@ namespace ConsoleApp1.Repository
             return accounts;
         }
 
+        public List<Teacher> GetAllTeachers(SqlConnection connection)
+        {
+            List<Teacher> teachers = new List<Teacher>();
+
+            string query = @"
+        SELECT Teachers.*, Classes.class_name
+        FROM Teachers
+        JOIN Classes ON Teachers.class_id = Classes.class_id
+            ";
+            using (SqlCommand cmd = new SqlCommand(query, connection))
+            {
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        int id = Convert.ToInt32(reader["id"]);
+                        string first_name = Convert.ToString(reader["first_name"]);
+                        string last_name = Convert.ToString(reader["last_name"]);
+                        string email = Convert.ToString(reader["email"]);
+                        string password = Convert.ToString(reader["password"]);
+                        string class_name = Convert.ToString(reader["class_name"]);
+                        int class_id = Convert.ToInt32(reader["class_id"]);
+                        Teacher teacher= new Teacher(id, first_name, last_name, email, password, class_name, class_id);
+                        teachers.Add(teacher);
+                    }
+                }
+            }
+            return teachers;
+        }
+
 
         public int CreateNewAccount(SqlConnection connection, string name, string email, string password, int role_id)
         {
@@ -50,6 +80,23 @@ namespace ConsoleApp1.Repository
                 cmd.Parameters.Add("@email", System.Data.SqlDbType.NVarChar).Value = email;
                 cmd.Parameters.Add("@password", System.Data.SqlDbType.NVarChar).Value = password;
                 cmd.Parameters.Add("@role_id", System.Data.SqlDbType.NVarChar).Value = role_id;
+                id = (int)cmd.ExecuteScalar();
+                MessageBox.Show("Inserted row with id: " + id);
+            }
+            return id;
+        }
+
+        public int CreateNewTeacher(SqlConnection connection, string first_name, string last_name, string email, string password, int class_id)
+        {
+            int id = 0;
+            string query = $"insert into Teachers(first_name,last_name,email,password,class_id) output INSERTED.ID " + $" Values  (@first_name,@last_name, @email, @password,@class_id)";
+            using (SqlCommand cmd = new SqlCommand(query, connection))
+            {
+                cmd.Parameters.Add("@first_name", System.Data.SqlDbType.NVarChar).Value = first_name;
+                cmd.Parameters.Add("@last_name", System.Data.SqlDbType.NVarChar).Value = last_name;
+                cmd.Parameters.Add("@email", System.Data.SqlDbType.NVarChar).Value = email;
+                cmd.Parameters.Add("@password", System.Data.SqlDbType.NVarChar).Value = password;
+                cmd.Parameters.Add("@class_id", System.Data.SqlDbType.NVarChar).Value = class_id;
                 id = (int)cmd.ExecuteScalar();
                 MessageBox.Show("Inserted row with id: " + id);
             }
@@ -96,6 +143,50 @@ namespace ConsoleApp1.Repository
             }
             return account;
         }
+
+        public Teacher Get_Teacher_Id(SqlConnection connection, int id)
+        {
+            string query = @"
+        SELECT Teachers.*, Classes.class_name 
+        FROM Teachers 
+        JOIN Classes ON Teachers.class_id = Classes.class_id
+        WHERE id=@id";
+            int id2 = 0;
+            Teacher teacher = null;
+            using (SqlCommand cmd = new SqlCommand(query, connection))
+            {
+                cmd.Parameters.Add("@id", System.Data.SqlDbType.NVarChar).Value = id;
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        id2 = Convert.ToInt32(reader["id"]);
+                        string first_name = Convert.ToString(reader["first_name"]);
+                        string last_name = Convert.ToString(reader["last_name"]);
+                        string email = Convert.ToString(reader["email"]);
+                        string password = Convert.ToString(reader["password"]);
+                        string class_name = Convert.ToString(reader["class_name"]);
+                        int class_id = Convert.ToInt32(reader["class_id"]);
+
+                        Console.WriteLine("id: " + id);
+                        Console.WriteLine("first_name: " + first_name);
+                        Console.WriteLine("last_name: " + last_name);
+                        Console.WriteLine("email: " + email);
+                        Console.WriteLine("password: " + password);
+                        Console.WriteLine("class id: " + class_id);
+                        teacher = new Teacher(id, first_name, last_name, email, password, class_name, class_id);
+                    }
+                }
+            }
+            if (id2 == 0)
+            {
+                MessageBox.Show("Error: id not exist");
+                return null;
+            }
+            return teacher;
+        }
+
+
 
         public Account GetName(SqlConnection connection, string name)
         {
@@ -252,6 +343,16 @@ namespace ConsoleApp1.Repository
             }
         }
 
+        public void DeleteTeacher(SqlConnection connection, int id)
+        {
+            string query = $"DELETE FROM Teachers WHERE  id = @id";
+            using (SqlCommand cmd = new SqlCommand(query, connection))
+            {
+                cmd.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Teacher was deleted with id: " + id);
+            }
+        }
 
         public void UpdateAccount(SqlConnection connection, int id, string name, string email, string password, int role_id)
         {
@@ -266,6 +367,24 @@ namespace ConsoleApp1.Repository
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show($"Account updated with id: {id}");
+            }
+
+        }
+
+        public void UpdateTeacher(SqlConnection connection, int id, string first_name, string last_name, string email, string password, int class_id)
+        {
+            string query = "UPDATE Teachers SET first_name = @first_name,last_name=@last_name, email = @email, password = @password, class_id = @class_id WHERE id = @id";
+            using (SqlCommand cmd = new SqlCommand(query, connection))
+            {
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.Parameters.AddWithValue("@first_name", first_name);
+                cmd.Parameters.AddWithValue("@last_name", last_name);
+                cmd.Parameters.AddWithValue("@email", email);
+                cmd.Parameters.AddWithValue("@password", password);
+                cmd.Parameters.AddWithValue("@class_id", class_id);
+
+                cmd.ExecuteNonQuery();
+                MessageBox.Show($"Teacher updated with id: {id}");
             }
 
         }

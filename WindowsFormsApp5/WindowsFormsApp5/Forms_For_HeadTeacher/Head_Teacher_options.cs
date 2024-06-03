@@ -20,50 +20,50 @@ namespace WindowsFormsApp5.Forms_For_HeadTeacher
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form create_Account = new Create_Account
+            Form create_Director = new Create_Director
             {
                 StartPosition = FormStartPosition.Manual,
                 Height = this.Height,
                 Width = this.Width,
                 Location = this.Location
             };
-            create_Account.Show();
+            create_Director.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form show_All_Accounts = new Show_All_Accounts
+            Form show_All_Director = new Show_All_Directors
             {
                 StartPosition = FormStartPosition.Manual,
                 Height = this.Height,
                 Width = this.Width,
                 Location = this.Location
             };
-            show_All_Accounts.Show();
+            show_All_Director.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form delete_Account = new Delete_Account
+            Form delete_Director = new Delete_Director
             {
                 StartPosition = FormStartPosition.Manual,
                 Height = this.Height,
                 Width = this.Width,
                 Location = this.Location
             };
-            delete_Account.Show();
+            delete_Director.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form update_Account = new Update_Account
+            Form update_Director = new Update_Director
             {
                 StartPosition = FormStartPosition.Manual,
                 Height = this.Height,
                 Width = this.Width,
                 Location = this.Location
             };
-            update_Account.Show();
+            update_Director.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -86,6 +86,11 @@ namespace WindowsFormsApp5.Forms_For_HeadTeacher
             show_All_Students.Width = this.Width;
             show_All_Students.Location = this.Location;
             show_All_Students.Show();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
