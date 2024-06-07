@@ -1,31 +1,29 @@
-﻿--﻿IF OBJECT_ID('dbo.Accounts', 'U') IS NOT NULL  
+﻿--﻿IF OBJECT_ID('dbo.Accounts', 'U') IS NOT NULL
 --  DROP TABLE dbo.Accounts;
 
---IF OBJECT_ID('dbo.Students', 'U') IS NOT NULL  
+--IF OBJECT_ID('dbo.Students', 'U') IS NOT NULL
 --  DROP TABLE dbo.Students;
 
---IF OBJECT_ID('dbo.Classes', 'U') IS NOT NULL  
+--IF OBJECT_ID('dbo.Classes', 'U') IS NOT NULL
 --  DROP TABLE dbo.Classes;
 
---IF OBJECT_ID('dbo.Teachers', 'U') IS NOT NULL  
+--IF OBJECT_ID('dbo.Teachers', 'U') IS NOT NULL
 --  DROP TABLE dbo.Teachers;
 
---IF OBJECT_ID('dbo.Roles', 'U') IS NOT NULL  
+--IF OBJECT_ID('dbo.Roles', 'U') IS NOT NULL
 --  DROP TABLE dbo.Roles;
 
 --DROP TABLE IF EXISTS Students;
---DROP TABLE IF EXISTS Classes; 
+--DROP TABLE IF EXISTS Classes;
 --DROP TABLE IF EXISTS Teachers;
 --DROP TABLE IF EXISTS Accounts;
 --DROP TABLE IF EXISTS Roles;
 
 
-
-CREATE TABLE Teachers (
-    teacher_id INT IDENTITY(1,1) PRIMARY KEY,
-    first_name NVARCHAR(255),
-    last_name NVARCHAR(255),
-);
+--CREATE TABLE Roles(
+--    role_id INT IDENTITY(1,1) PRIMARY KEY,
+--    role_name NVARCHAR(255) NOT NULL
+--);
 
 CREATE TABLE Classes (
     class_id INT IDENTITY(1,1) PRIMARY KEY,
@@ -33,6 +31,32 @@ CREATE TABLE Classes (
     teacher_id INT,
     FOREIGN KEY (teacher_id) REFERENCES Teachers(teacher_id)
 );
+
+CREATE TABLE Teachers (
+    teacher_id INT IDENTITY(1,1) PRIMARY KEY,
+    first_name NVARCHAR(255),
+    last_name NVARCHAR(255),
+    email NVARCHAR(255) NOT NULL UNIQUE,
+    password NVARCHAR(255) NOT NULL UNIQUE,
+    class_id INT,
+    FOREIGN KEY (class_id) REFERENCES Classes(class_id)
+);
+
+
+
+
+
+CREATE TABLE Accounts(
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    name NVARCHAR(255) NOT NULL,
+    email NVARCHAR(255) NOT NULL UNIQUE,
+    password NVARCHAR(255) NOT NULL UNIQUE,
+    --role_id INT,
+    --FOREIGN KEY (role_id) REFERENCES Roles(role_id)
+);
+
+
+
 
 CREATE TABLE Students (
     student_id INT IDENTITY(1,1) PRIMARY KEY,
@@ -47,39 +71,29 @@ CREATE TABLE Students (
 
 
 
-CREATE TABLE Roles(
-    role_id INT IDENTITY(1,1) PRIMARY KEY,
-    role_name NVARCHAR(255) NOT NULL
-);
 
-CREATE TABLE Accounts(
-    id INT IDENTITY(1,1) PRIMARY KEY,
-    name NVARCHAR(255) NOT NULL,
-    email NVARCHAR(255) NOT NULL UNIQUE,
-    password NVARCHAR(255) NOT NULL UNIQUE,
-    role_id INT,
-    FOREIGN KEY (role_id) REFERENCES Roles(role_id)
-);
+--INSERT INTO Roles(role_name) VALUES
+--('Director'),
+--('Teacher');
 
-
-INSERT INTO Classes (class_name, teacher_id)
+INSERT INTO Classes (class_name)
 VALUES
-('A', 1),
-('B', 2),
-('C', 3),
-('D', 4);
+('A'),
+('B'),
+('C'),
+('D');
 
 
-INSERT INTO Roles(role_name) VALUES
-('Director'),
-('Teacher');
+INSERT INTO Accounts(name, email, password) VALUES --, role_id
+('Tomas', 'tomas.gerada@gmail.com', '5dasdsaASd');
 
 
-INSERT INTO Accounts(name, email, password, role_id) VALUES
-('Tomas', 'tomas.gerada@gmail.com', '5dasdsaASd', 1),
-('John', 'jason.voorhees@gmail.com', 'GGsurv123', 2),
-('Yarik', 'yarik.mudryy@itstep.com', 'ITstepTop124', 2);
 
+INSERT INTO Teachers (first_name, last_name, email, password, class_id) VALUES
+('Lyudmyla', 'Ivanenko', 'l.ivanenko@email.com', 'Pass123!', 1),
+('Oleksandr', 'Hryhorenko', 'a.grigorenko@email.com', 'Pass234!', 2),
+('Jason','Voohees', 'jason.voorhees@gmail.com', 'GGsurv123',3),
+('Yarik','Mudryy' ,'yarik.mudryy@itstep.com', 'ITstepTop124',4);
 
 
 INSERT INTO Students (first_name, last_name, email, password, IsHomeworkDone, class_id) VALUES

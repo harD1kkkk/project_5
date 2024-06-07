@@ -87,17 +87,17 @@ namespace ConsoleApp1.View
             Console.Write("Enter account password: ");
             password = Console.ReadLine();
 
-            Console.Write("Enter account role id: ");
-            int role_id = Int32.Parse(Console.ReadLine());
+            //Console.Write("Enter account role id: ");
+            //int role_id = Int32.Parse(Console.ReadLine());
 
-            if (role_id >= 3)
-            {
-                Console.Write("Error: Chose role_id between 1 or 2");
-            }
-            else
-            {
-                accountController.UpdateAccount(id, name, email, password, role_id);
-            }
+            //if (role_id >= 3)
+            //{
+            //    Console.Write("Error: Chose role_id between 1 or 2");
+            //}
+            //else
+            //{
+            //    accountController.UpdateAccount(id, name, email, password, role_id);
+            //}
             
             Console.WriteLine();
         }
@@ -112,17 +112,17 @@ namespace ConsoleApp1.View
             Console.WriteLine("Input password for new account:");
             string password = Console.ReadLine();
 
-            Console.Write("Enter account role id: ");
-            int role_id = Int32.Parse(Console.ReadLine());
+            //Console.Write("Enter account role id: ");
+            //int role_id = Int32.Parse(Console.ReadLine());
 
-            if (role_id >= 3)
-            {
-                Console.Write("Error: Chose role_id between 1 or 2");
-            }
-            else
-            {
-                accountController.CreateNewAccount(name, email, password, role_id);
-            }
+            //if (role_id >= 3)
+            //{
+            //    Console.Write("Error: Chose role_id between 1 or 2");
+            //}
+            //else
+            //{
+            //    accountController.CreateNewAccount(name, email, password, role_id);
+            //}
             Console.WriteLine();
         }
         public void DeleteAccount(int id)

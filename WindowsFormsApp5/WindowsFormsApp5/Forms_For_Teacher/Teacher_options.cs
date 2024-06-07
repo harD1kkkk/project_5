@@ -16,5 +16,10 @@ namespace WindowsFormsApp5.Forms_For_Teacher
         {
             InitializeComponent();
         }
+
+        private void Teacher_options_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

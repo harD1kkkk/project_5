@@ -54,7 +54,7 @@ namespace ConsoleApp1.Service
         }
 
 
-        public int CreateNewAccount(string name, string email, string password, int role_id)
+        public int CreateNewAccount(string name, string email, string password) //, int role_id
         {
             using (SqlConnection conection = new SqlConnection(connectionString))
             {
@@ -62,7 +62,7 @@ namespace ConsoleApp1.Service
                 try
                 {
                     conection.Open();
-                    accountRepository.CreateNewAccount(conection, name, email, password, role_id);
+                    accountRepository.CreateNewAccount(conection, name, email, password); //, role_id
                 }
                 catch (Exception ex)
                 {
@@ -205,29 +205,29 @@ namespace ConsoleApp1.Service
             return account;
         }
 
-        public int GetRole_id(string name, string email, string password)
-        {
-            int role_id = 0;
-            Account account = null;
-            using (SqlConnection conection = new SqlConnection(connectionString))
-            {
-                try
-                {
-                    conection.Open();
-                    account = accountRepository.GetRole_Id(conection, name, email, password);
-                    role_id = account.Role_Id;
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-                if (account == null)
-                {
-                    MessageBox.Show("Account not exist");
-                }
-            }
-            return role_id;
-        }
+        //public int GetRole_id(string name, string email, string password)
+        //{
+        //    int role_id = 0;
+        //    Account account = null;
+        //    using (SqlConnection conection = new SqlConnection(connectionString))
+        //    {
+        //        try
+        //        {
+        //            conection.Open();
+        //            account = accountRepository.GetRole_Id(conection, name, email, password);
+        //            role_id = account.Role_Id;
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            MessageBox.Show(ex.Message);
+        //        }
+        //        if (account == null)
+        //        {
+        //            MessageBox.Show("Account not exist");
+        //        }
+        //    }
+        //    return role_id;
+        //}
 
         public void DeleteAccount(int id)
         {
@@ -275,7 +275,7 @@ namespace ConsoleApp1.Service
             }
         }
 
-        public void UpdateAccount(int id, string name, string email, string password, int role_id)
+        public void UpdateAccount(int id, string name, string email, string password) //, int role_id
         {
             if (GetId(id) == null)
             {
@@ -288,7 +288,7 @@ namespace ConsoleApp1.Service
                     try
                     {
                         conection.Open();
-                        accountRepository.UpdateAccount(conection, id, name, email, password, role_id);
+                        accountRepository.UpdateAccount(conection, id, name, email, password); //, role_id
                     }
                     catch (Exception ex)
                     {

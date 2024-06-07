@@ -47,69 +47,105 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chose_Director_Teacher_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chose_Director_Teacher_Student.Designer.cs">
+      <DependentUpon>Chose_Director_Teacher_Student.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controller\AccountController.cs" />
     <Compile Include="Entity\Account.cs" />
     <Compile Include="Entity\Student.cs" />
     <Compile Include="Entity\Teacher.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms_For_Administrator\Administrator_options.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms_For_Administrator\Administrator_options.Designer.cs">
+      <DependentUpon>Administrator_options.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Director\Delete_Director.cs">
+    <Compile Include="Forms_For_Administrator\Options_Director\Create_Director.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Director\Delete_Director.Designer.cs">
-      <DependentUpon>Delete_Director.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Director\Get_Account_By_ID.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Director\Get_Account_By_ID.Designer.cs">
-      <DependentUpon>Get_Account_By_ID.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Head_Teacher_options.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Head_Teacher_options.Designer.cs">
-      <DependentUpon>Head_Teacher_options.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Director\Create_Director.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Director\Create_Director.Designer.cs">
+    <Compile Include="Forms_For_Administrator\Options_Director\Create_Director.Designer.cs">
       <DependentUpon>Create_Director.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Director\Show_All_Directors.cs">
+    <Compile Include="Forms_For_Administrator\Options_Director\Delete_Director.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Director\Show_All_Directors.Designer.cs">
+    <Compile Include="Forms_For_Administrator\Options_Director\Delete_Director.Designer.cs">
+      <DependentUpon>Delete_Director.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_For_Administrator\Options_Director\Get_Account_By_ID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_For_Administrator\Options_Director\Get_Account_By_ID.Designer.cs">
+      <DependentUpon>Get_Account_By_ID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_For_Administrator\Options_Director\Show_All_Directors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_For_Administrator\Options_Director\Show_All_Directors.Designer.cs">
       <DependentUpon>Show_All_Directors.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Students\Show_All_Students.cs">
+    <Compile Include="Forms_For_Administrator\Options_Director\Update_Director.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Students\Show_All_Students.Designer.cs">
-      <DependentUpon>Show_All_Students.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Director\Update_Director.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Director\Update_Director.Designer.cs">
+    <Compile Include="Forms_For_Administrator\Options_Director\Update_Director.Designer.cs">
       <DependentUpon>Update_Director.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Teacher\Create_Teacher.cs">
+    <Compile Include="Forms_For_Administrator\Options_Students\Administrator_Show_All_Students.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Teacher\Create_Teacher.Designer.cs">
-      <DependentUpon>Create_Teacher.cs</DependentUpon>
+    <Compile Include="Forms_For_Administrator\Options_Students\Administrator_Show_All_Students.Designer.cs">
+      <DependentUpon>Administrator_Show_All_Students.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Teacher\Show_All_Teachers.cs">
+    <Compile Include="Forms_For_Administrator\Options_Teacher\Administrator_Create_Teacher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_For_HeadTeacher\Options_Teacher\Show_All_Teachers.Designer.cs">
-      <DependentUpon>Show_All_Teachers.cs</DependentUpon>
+    <Compile Include="Forms_For_Administrator\Options_Teacher\Administrator_Create_Teacher.Designer.cs">
+      <DependentUpon>Administrator_Create_Teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_For_Administrator\Options_Teacher\Administrator_Show_All_Teachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_For_Administrator\Options_Teacher\Administrator_Show_All_Teachers.Designer.cs">
+      <DependentUpon>Administrator_Show_All_Teachers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_For_HeadTeacher\HeadTeacher_options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_For_HeadTeacher\HeadTeacher_options.Designer.cs">
+      <DependentUpon>HeadTeacher_options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_For_HeadTeacher\Options_Students\HeadTeacher_Show_All_Students.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_For_HeadTeacher\Options_Students\HeadTeacher_Show_All_Students.Designer.cs">
+      <DependentUpon>HeadTeacher_Show_All_Students.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_For_HeadTeacher\Options_Teacher\HeadTeacher_Create_Teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_For_HeadTeacher\Options_Teacher\HeadTeacher_Create_Teacher.Designer.cs">
+      <DependentUpon>HeadTeacher_Create_Teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_For_HeadTeacher\Options_Teacher\HeadTeache_Show_All_Teachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_For_HeadTeacher\Options_Teacher\HeadTeache_Show_All_Teachers.Designer.cs">
+      <DependentUpon>HeadTeache_Show_All_Teachers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logins\Login_Administrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logins\Login_Administrator.Designer.cs">
+      <DependentUpon>Login_Administrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logins\Login_Director.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logins\Login_Director.Designer.cs">
+      <DependentUpon>Login_Director.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms_For_Teacher\Teacher_options.cs">
       <SubType>Form</SubType>
@@ -128,32 +164,56 @@
     <Compile Include="Entity\Response.cs" />
     <Compile Include="Service\AccountService.cs" />
     <Compile Include="View\MainView.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Chose_Director_Teacher_Student.resx">
+      <DependentUpon>Chose_Director_Teacher_Student.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Director\Delete_Director.resx">
-      <DependentUpon>Delete_Director.cs</DependentUpon>
+    <EmbeddedResource Include="Forms_For_Administrator\Administrator_options.resx">
+      <DependentUpon>Administrator_options.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Director\Get_Account_By_ID.resx">
-      <DependentUpon>Get_Account_By_ID.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Head_Teacher_options.resx">
-      <DependentUpon>Head_Teacher_options.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Director\Create_Director.resx">
+    <EmbeddedResource Include="Forms_For_Administrator\Options_Director\Create_Director.resx">
       <DependentUpon>Create_Director.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Director\Show_All_Directors.resx">
+    <EmbeddedResource Include="Forms_For_Administrator\Options_Director\Delete_Director.resx">
+      <DependentUpon>Delete_Director.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_For_Administrator\Options_Director\Get_Account_By_ID.resx">
+      <DependentUpon>Get_Account_By_ID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_For_Administrator\Options_Director\Show_All_Directors.resx">
       <DependentUpon>Show_All_Directors.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Students\Show_All_Students.resx">
-      <DependentUpon>Show_All_Students.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Director\Update_Director.resx">
+    <EmbeddedResource Include="Forms_For_Administrator\Options_Director\Update_Director.resx">
       <DependentUpon>Update_Director.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Teacher\Show_All_Teachers.resx">
-      <DependentUpon>Show_All_Teachers.cs</DependentUpon>
+    <EmbeddedResource Include="Forms_For_Administrator\Options_Students\Administrator_Show_All_Students.resx">
+      <DependentUpon>Administrator_Show_All_Students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_For_Administrator\Options_Teacher\Administrator_Create_Teacher.resx">
+      <DependentUpon>Administrator_Create_Teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_For_Administrator\Options_Teacher\Administrator_Show_All_Teachers.resx">
+      <DependentUpon>Administrator_Show_All_Teachers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_For_HeadTeacher\HeadTeacher_options.resx">
+      <DependentUpon>HeadTeacher_options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Students\HeadTeacher_Show_All_Students.resx">
+      <DependentUpon>HeadTeacher_Show_All_Students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Teacher\HeadTeacher_Create_Teacher.resx">
+      <DependentUpon>HeadTeacher_Create_Teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_For_HeadTeacher\Options_Teacher\HeadTeache_Show_All_Teachers.resx">
+      <DependentUpon>HeadTeache_Show_All_Teachers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_For_Teacher\Teacher_options.resx">
+      <DependentUpon>Teacher_options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logins\Login_Administrator.resx">
+      <DependentUpon>Login_Administrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logins\Login_Director.resx">
+      <DependentUpon>Login_Director.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
