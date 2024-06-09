@@ -36,7 +36,9 @@
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // listView1
@@ -49,15 +51,17 @@
             this.columnHeader5,
             this.columnHeader7,
             this.columnHeader8,
-            this.columnHeader9});
+            this.columnHeader6,
+            this.columnHeader10,
+            this.columnHeader11});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(77, 121);
+            this.listView1.Location = new System.Drawing.Point(12, 104);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(850, 231);
-            this.listView1.TabIndex = 1;
+            this.listView1.TabIndex = 2;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged_1);
             // 
             // columnHeader1
             // 
@@ -89,19 +93,28 @@
             // 
             // columnHeader8
             // 
-            this.columnHeader8.Text = "TEACHER NAME";
+            this.columnHeader8.Text = "TEACHER FIRST NAME";
+            this.columnHeader8.Width = 100;
             // 
-            // columnHeader9
+            // columnHeader6
             // 
-            this.columnHeader9.Text = "CLASS NAME";
+            this.columnHeader6.Text = "TEACHER LAST NAME";
             // 
-            // Show_All_Students
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "CLASS NAME";
+            // 
+            // columnHeader11
+            // 
+            this.columnHeader11.Text = "CLASS ID";
+            // 
+            // Administrator_Show_All_Students
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1014, 450);
             this.Controls.Add(this.listView1);
-            this.Name = "Show_All_Students";
+            this.Name = "Administrator_Show_All_Students";
             this.Text = "Show_All_Students";
             this.ResumeLayout(false);
 
@@ -117,6 +130,8 @@
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader8;
-        private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader10;
+        private System.Windows.Forms.ColumnHeader columnHeader11;
     }
 }

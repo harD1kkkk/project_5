@@ -133,6 +133,7 @@
             this.listView1.TabIndex = 16;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
@@ -170,6 +171,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Update_Director";
             this.Text = "Update_Account";
+            this.Load += new System.EventHandler(this.Update_Director_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

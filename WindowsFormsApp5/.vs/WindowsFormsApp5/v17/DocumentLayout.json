@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|c:\\users\\student\\source\\repos\\windowsformsapp5\\windowsformsapp5\\forms_for_administrator\\options_students\\administrator_delete_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_students\\administrator_delete_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|c:\\users\\student\\source\\repos\\windowsformsapp5\\windowsformsapp5\\forms_for_administrator\\options_students\\administrator_delete_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_students\\administrator_delete_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_students\\administrator_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_students\\administrator_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|c:\\users\\student\\source\\repos\\windowsformsapp5\\windowsformsapp5\\forms_for_administrator\\options_students\\administrator_create_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_students\\administrator_create_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\administrator_options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\administrator_options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|c:\\users\\student\\source\\repos\\windowsformsapp5\\windowsformsapp5\\logins\\login_administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\logins\\login_administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|c:\\users\\student\\source\\repos\\windowsformsapp5\\windowsformsapp5\\forms_for_administrator\\options_students\\administrator_create_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_students\\administrator_create_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\administrator_options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -31,27 +27,91 @@
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_students\\administrator_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_students\\administrator_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_students\\administrator_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\delete_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\delete_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\delete_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\delete_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\administrator_options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\administrator_options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|c:\\users\\student\\source\\repos\\windowsformsapp5\\windowsformsapp5\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\controller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\controller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|c:\\users\\student\\source\\repos\\windowsformsapp5\\windowsformsapp5\\logins\\login_administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\logins\\login_administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\logins\\login_administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\logins\\login_administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\logins\\login_administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|c:\\users\\student\\source\\repos\\windowsformsapp5\\windowsformsapp5\\logins\\login_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\logins\\login_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|c:\\users\\student\\source\\repos\\windowsformsapp5\\windowsformsapp5\\logins\\login_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\logins\\login_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\logins\\login_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|c:\\users\\student\\source\\repos\\windowsformsapp5\\windowsformsapp5\\chose_director_teacher_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\get_account_by_id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\get_account_by_id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\get_account_by_id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\get_account_by_id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\create_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\create_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\create_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\create_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\update_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\update_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\update_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\update_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\show_all_directors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\show_all_directors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\entity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\entity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_headteacher\\options_students\\headteacher_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_headteacher\\options_students\\headteacher_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\logins\\login_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\logins\\login_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\chose_director_teacher_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\chose_director_teacher_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -59,11 +119,22 @@
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\chose_director_teacher_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_headteacher\\options_students\\headteacher_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_headteacher\\options_students\\headteacher_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\entity\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\entity\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Update_Director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|c:\\users\\student\\source\\repos\\windowsformsapp5\\windowsformsapp5\\view\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\view\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\view\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -95,20 +166,12 @@
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_headteacher\\options_teacher\\headteacher_create_teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_headteacher\\options_students\\headteacher_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_headteacher\\options_students\\headteacher_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_headteacher\\options_students\\headteacher_show_all_students.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_headteacher\\options_students\\headteacher_show_all_students.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_students\\administrator_show_all_students.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_students\\administrator_show_all_students.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_headteacher\\options_students\\headteacher_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_headteacher\\options_students\\headteacher_show_all_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_teacher\\administrator_create_teacher.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,14 +202,6 @@
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\create_director.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\create_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\create_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\create_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\create_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\delete_director.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\delete_director.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -163,43 +218,12 @@
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\update_director.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\update_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\update_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\update_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\update_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\show_all_directors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\show_all_directors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\show_all_directors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\show_all_directors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\get_account_by_id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\get_account_by_id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\get_account_by_id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\get_account_by_id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\delete_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\delete_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\options_director\\delete_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\options_director\\delete_director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\forms_for_administrator\\administrator_options.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\forms_for_administrator\\administrator_options.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Update_Director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
@@ -247,20 +271,12 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Administrator_options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|c:\\users\\student\\source\\repos\\windowsformsapp5\\windowsformsapp5\\logins\\login_director.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\logins\\login_director.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\logins\\login_director.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\entity\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\entity\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\entity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\entity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\windowsformsapp5\\entity\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BAB4677-5705-4C5A-954F-DD0548A003A3}|WindowsFormsApp5\\WindowsFormsApp5.csproj|solutionrelative:windowsformsapp5\\entity\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Teacher\\HeadTeacher_Show_All_Teachers.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -282,11 +298,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1002,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "SQLQuery1.sql ",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\SQLQuery1.sql",
               "RelativeDocumentMoniker": "SQLQuery1.sql",
@@ -298,13 +314,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Controller\\AccountController.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Controller\\AccountController.cs",
               "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Controller\\AccountController.cs",
               "RelativeToolTip": "WindowsFormsApp5\\Controller\\AccountController.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAYwFcAAAAwAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAApwFIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T06:48:53.579Z",
               "IsPinned": true,
@@ -312,13 +328,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AccountService.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Service\\AccountService.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Service\\AccountService.cs",
               "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Service\\AccountService.cs",
               "RelativeToolTip": "WindowsFormsApp5\\Service\\AccountService.cs",
-              "ViewState": "AQIAAFIBAAAAAAAAAADwv2cBAAA/AAAA",
+              "ViewState": "AQIAAD4BAAAAAAAAAAAIwD8BAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T06:49:05.857Z",
               "IsPinned": true,
@@ -326,13 +342,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Repository\\AccountRepository.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Repository\\AccountRepository.cs",
               "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Repository\\AccountRepository.cs",
               "RelativeToolTip": "WindowsFormsApp5\\Repository\\AccountRepository.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAwFgAAAANAAAA",
+              "ViewState": "AQIAADYBAAAAAAAAAAAAAN8BAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T06:49:12.955Z",
               "IsPinned": true,
@@ -340,21 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Entity\\Student.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Entity\\Student.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Entity\\Student.cs",
-              "RelativeToolTip": "WindowsFormsApp5\\Entity\\Student.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAIwAYAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T07:50:15.648Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Administrator_Show_All_Students.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Show_All_Students.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Show_All_Students.cs",
@@ -366,38 +368,22 @@
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Administrator_Show_All_Students.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Show_All_Students.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Show_All_Students.cs",
               "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Show_All_Students.cs",
               "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Show_All_Students.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAADwvysAAAApAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAIA0wDcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T17:30:36.265Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Administrator_options.cs",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.cs",
-              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAA4wFwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:21:19.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Administrator_options.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.cs",
@@ -405,28 +391,96 @@
               "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T17:20:20.652Z",
+              "IsPinned": true,
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login_Administrator.cs",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Logins\\Login_Administrator.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Logins\\Login_Administrator.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Logins\\Login_Administrator.cs",
-              "RelativeToolTip": "WindowsFormsApp5\\Logins\\Login_Administrator.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAIwBoAAABpAAAA",
+              "DocumentIndex": 2,
+              "Title": "Administrator_Create_Student.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Create_Student.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Create_Student.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Create_Student.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Create_Student.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:54:50.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T09:01:13.897Z",
+              "IsPinned": true,
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Administrator_Create_Student.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Create_Student.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Create_Student.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Create_Student.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Create_Student.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAcwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T10:11:56.919Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Administrator_options.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAApwHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:21:19.708Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:23:28.52Z",
+              "IsPinned": true,
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Administrator_Delete_Student.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Delete_Student.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Delete_Student.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Delete_Student.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Delete_Student.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:10:32.142Z",
+              "IsPinned": true,
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Administrator_Delete_Student.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Delete_Student.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Delete_Student.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Delete_Student.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Delete_Student.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAMwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:18:43.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Login_Administrator.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Logins\\Login_Administrator.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Logins\\Login_Administrator.cs",
@@ -438,20 +492,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login_Director.cs",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Logins\\Login_Director.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Logins\\Login_Director.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Logins\\Login_Director.cs",
-              "RelativeToolTip": "WindowsFormsApp5\\Logins\\Login_Director.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAIwCAAAAAAAAAA",
+              "DocumentIndex": 14,
+              "Title": "Login_Administrator.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Logins\\Login_Administrator.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Logins\\Login_Administrator.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Logins\\Login_Administrator.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Logins\\Login_Administrator.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAawBUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T07:01:22.345Z",
+              "WhenOpened": "2024-06-07T17:54:50.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
+              "Title": "Delete_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:19:02.685Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete_Director.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAvwDgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:19:04.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Login_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Logins\\Login_Director.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Logins\\Login_Director.cs",
@@ -463,20 +542,138 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
+              "Title": "Get_Account_By_ID.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAD4vyAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:22:13.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Get_Account_By_ID.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:21:16.837Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Update_Director.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAawBMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:25:29.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create_Director.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAawCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:17:56.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Update_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:22:23.958Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Show_All_Directors.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:22:50.679Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Entity\\Student.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Entity\\Student.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Entity\\Student.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Entity\\Student.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAzwBcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:50:15.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HeadTeacher_Show_All_Students.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAUwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:34:13.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Chose_Director_Teacher_Student.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Chose_Director_Teacher_Student.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Chose_Director_Teacher_Student.cs",
               "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Chose_Director_Teacher_Student.cs",
               "RelativeToolTip": "WindowsFormsApp5\\Chose_Director_Teacher_Student.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAcwCkAAAAOAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAIwBcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T16:38:29.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
+              "Title": "Login_Director.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Logins\\Login_Director.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Logins\\Login_Director.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Logins\\Login_Director.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Logins\\Login_Director.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwB4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:01:22.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "Chose_Director_Teacher_Student.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Chose_Director_Teacher_Student.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Chose_Director_Teacher_Student.cs",
@@ -488,33 +685,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Program.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Program.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Program.cs",
-              "RelativeToolTip": "WindowsFormsApp5\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "DocumentIndex": 30,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Entity\\Response.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Entity\\Response.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Entity\\Response.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Entity\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T15:39:04.834Z",
+              "WhenOpened": "2024-06-02T08:16:47.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MainView.cs",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\View\\MainView.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\View\\MainView.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\View\\MainView.cs",
-              "RelativeToolTip": "WindowsFormsApp5\\View\\MainView.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAuwHMAAAA8AAAA",
+              "DocumentIndex": 29,
+              "Title": "HeadTeacher_Show_All_Students.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:42:59.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T17:34:11.699Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 31,
               "Title": "Update_Director.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
@@ -527,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 57,
               "Title": "Show_All_Directors.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.Designer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.Designer.cs",
@@ -540,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 58,
               "Title": "Show_All_Directors.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.cs",
@@ -553,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 60,
               "Title": "Get_Account_By_ID.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.Designer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.Designer.cs",
@@ -566,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "Get_Account_By_ID.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
@@ -579,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 63,
               "Title": "Delete_Director.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Delete_Director.Designer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Delete_Director.Designer.cs",
@@ -592,7 +788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 64,
               "Title": "Delete_Director.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
@@ -605,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 66,
               "Title": "Create_Director.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Create_Director.Designer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Create_Director.Designer.cs",
@@ -618,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 67,
               "Title": "Create_Director.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
@@ -631,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 70,
               "Title": "Administrator_options.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Administrator_options.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Administrator_options.cs",
@@ -644,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 69,
               "Title": "Administrator_options.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Administrator_options.Designer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Administrator_options.Designer.cs",
@@ -657,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 73,
               "Title": "HeadTeacher_Show_All_Teachers.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Teacher\\HeadTeacher_Show_All_Teachers.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Teacher\\HeadTeacher_Show_All_Teachers.Designer.cs",
@@ -668,7 +864,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Program.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\Program.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Program.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T15:39:04.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MainView.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\View\\MainView.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp5\\View\\MainView.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\View\\MainView.cs",
+              "RelativeToolTip": "WindowsFormsApp5\\View\\MainView.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAuwHMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:42:59.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "Chose_Director_Teacher_Student.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Chose_Director_Teacher_Student.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Chose_Director_Teacher_Student.Designer.cs",
@@ -681,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 35,
               "Title": "HeadTeacher_options.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\HeadTeacher_options.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_HeadTeacher\\HeadTeacher_options.cs",
@@ -693,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 36,
               "Title": "Teacher_options.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Teacher\\Teacher_options.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Teacher\\Teacher_options.cs",
@@ -706,7 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 37,
               "Title": "Teacher_options.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Teacher\\Teacher_options.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Teacher\\Teacher_options.cs",
@@ -718,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 38,
               "Title": "HeadTeache_Show_All_Teachers.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Teacher\\HeadTeache_Show_All_Teachers.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Teacher\\HeadTeache_Show_All_Teachers.cs",
@@ -731,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 39,
               "Title": "HeadTeache_Show_All_Teachers.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Teacher\\HeadTeache_Show_All_Teachers.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Teacher\\HeadTeache_Show_All_Teachers.cs",
@@ -743,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 40,
               "Title": "HeadTeacher_Create_Teacher.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Teacher\\HeadTeacher_Create_Teacher.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Teacher\\HeadTeacher_Create_Teacher.cs",
@@ -755,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 41,
               "Title": "HeadTeacher_Show_All_Students.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.Designer.cs",
@@ -768,32 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "HeadTeacher_Show_All_Students.cs",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs",
-              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAYwBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:34:13.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "HeadTeacher_Show_All_Students.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_HeadTeacher\\Options_Students\\HeadTeacher_Show_All_Students.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:34:11.699Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 42,
               "Title": "Administrator_Show_All_Students.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Show_All_Students.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Students\\Administrator_Show_All_Students.Designer.cs",
@@ -806,7 +1003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 45,
               "Title": "Administrator_Create_Teacher.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Teacher\\Administrator_Create_Teacher.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Teacher\\Administrator_Create_Teacher.cs",
@@ -818,7 +1015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 44,
               "Title": "Administrator_Show_All_Teachers.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Teacher\\Administrator_Show_All_Teachers.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Teacher\\Administrator_Show_All_Teachers.cs",
@@ -830,7 +1027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 43,
               "Title": "Administrator_Create_Teacher.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Teacher\\Administrator_Create_Teacher.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Teacher\\Administrator_Create_Teacher.Designer.cs",
@@ -843,7 +1040,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 46,
               "Title": "Administrator_Show_All_Teachers.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Teacher\\Administrator_Show_All_Teachers.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Teacher\\Administrator_Show_All_Teachers.Designer.cs",
@@ -856,7 +1053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 47,
               "Title": "Administrator_Show_All_Teachers.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Teacher\\Administrator_Show_All_Teachers.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Teacher\\Administrator_Show_All_Teachers.cs",
@@ -869,7 +1066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 48,
               "Title": "Administrator_Create_Teacher.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Teacher\\Administrator_Create_Teacher.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Teacher\\Administrator_Create_Teacher.cs",
@@ -882,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 51,
               "Title": "Get_Account_By_ID.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.Designer.cs",
@@ -895,7 +1092,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 50,
               "Title": "Delete_Director.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.Designer.cs",
@@ -908,7 +1105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 49,
               "Title": "Create_Director.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.Designer.cs",
@@ -921,32 +1118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Create_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:23:28.52Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Create_Director.cs",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
-              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Create_Director.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:17:56.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 52,
               "Title": "Show_All_Directors.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.Designer.cs",
@@ -959,7 +1131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 53,
               "Title": "Update_Director.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.Designer.cs",
@@ -972,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 54,
               "Title": "Show_All_Directors.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.cs",
@@ -985,94 +1157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Show_All_Directors.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:22:50.679Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Get_Account_By_ID.cs",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
-              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwBgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:22:13.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Get_Account_By_ID.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:21:16.837Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Update_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:22:23.958Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Update_Director.cs",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
-              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Update_Director.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:25:29.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Delete_Director.cs",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
-              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAwA0AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:19:04.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Delete_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp5\\Forms_For_Administrator\\Options_Director\\Delete_Director.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:19:02.685Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "Administrator_options.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Forms_For_Administrator\\Administrator_options.Designer.cs",
@@ -1085,7 +1170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "Show_All_Directors.resx",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.resx",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Show_All_Directors.resx",
@@ -1097,7 +1182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "Get_Account_By_ID.resx",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.resx",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Get_Account_By_ID.resx",
@@ -1109,7 +1194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 62,
               "Title": "Delete_Director.resx",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Delete_Director.resx",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Delete_Director.resx",
@@ -1121,7 +1206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 65,
               "Title": "Create_Director.resx",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Options_Director\\Create_Director.resx",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Options_Director\\Create_Director.resx",
@@ -1133,7 +1218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 68,
               "Title": "Administrator_options.resx",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Forms_For_Administrator\\Administrator_options.resx",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Forms_For_Administrator\\Administrator_options.resx",
@@ -1145,7 +1230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 71,
               "Title": "Login_Director.Designer.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Logins\\Login_Director.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Logins\\Login_Director.Designer.cs",
@@ -1158,7 +1243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 72,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Entity\\Account.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp5\\Entity\\Account.cs",
@@ -1167,19 +1252,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T06:52:37.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Entity\\Response.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp5\\Entity\\Response.cs",
-              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp5\\WindowsFormsApp5\\Entity\\Response.cs",
-              "RelativeToolTip": "WindowsFormsApp5\\Entity\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T08:16:47.9Z",
               "EditorCaption": ""
             }
           ]

@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-using System.Xml.Linq;
 using WindowsFormsApp5.Entity;
 
 namespace ConsoleApp1.Repository
@@ -62,7 +61,7 @@ namespace ConsoleApp1.Repository
                         string password = Convert.ToString(reader["password"]);
                         string class_name = Convert.ToString(reader["class_name"]);
                         int class_id = Convert.ToInt32(reader["class_id"]);
-                        Teacher teacher= new Teacher(id, first_name, last_name, email, password, class_name, class_id);
+                        Teacher teacher = new Teacher(id, first_name, last_name, email, password, class_name, class_id);
                         teachers.Add(teacher);
                     }
                 }
@@ -80,9 +79,10 @@ SELECT
     Students.last_name, 
     Students.email, 
     Students.password, 
+    Students.IsHomeworkSet, 
     Students.IsHomeworkDone, 
-    Teachers.first_name, 
-    Teachers.last_name, 
+    Teachers.first_name AS teacher_first_name, 
+    Teachers.last_name AS teacher_last_name, 
     Classes.class_name, 
     Classes.class_id 
 FROM 
@@ -103,16 +103,20 @@ JOIN
                         string last_name = Convert.ToString(reader["last_name"]);
                         string email = Convert.ToString(reader["email"]);
                         string password = Convert.ToString(reader["password"]);
+                        bool isHomeworkSet = Convert.ToBoolean(reader["IsHomeworkSet"]);
                         bool isHomeworkDone = Convert.ToBoolean(reader["IsHomeworkDone"]);
-                        string teacher_name = Convert.ToString(reader["teacher_name"]);
+                        string teacher_first_name = Convert.ToString(reader["teacher_first_name"]);
+                        string teacher_last_name = Convert.ToString(reader["teacher_last_name"]);
                         string class_name = Convert.ToString(reader["class_name"]);
-                        Student student = new Student(id, first_name, last_name, email, password, isHomeworkDone, teacher_name, class_name);
+                        int class_id = Convert.ToInt32(reader["class_id"]);
+                        Student student = new Student(id, first_name, last_name, email, password, isHomeworkSet, isHomeworkDone, teacher_first_name, teacher_last_name, class_name, class_id);
                         students.Add(student);
                     }
                 }
             }
             return students;
         }
+
 
         public int CreateNewAccount(SqlConnection connection, string name, string email, string password) //, int role_id
         {
@@ -141,6 +145,25 @@ JOIN
                 cmd.Parameters.Add("@last_name", System.Data.SqlDbType.NVarChar).Value = last_name;
                 cmd.Parameters.Add("@email", System.Data.SqlDbType.NVarChar).Value = email;
                 cmd.Parameters.Add("@password", System.Data.SqlDbType.NVarChar).Value = password;
+                cmd.Parameters.Add("@class_id", System.Data.SqlDbType.NVarChar).Value = class_id;
+                id = (int)cmd.ExecuteScalar();
+                MessageBox.Show("Inserted row with id: " + id);
+            }
+            return id;
+        }
+
+        public int CreateNewStudent(SqlConnection connection, string first_name, string last_name, string email, string password, bool isHomeworkSet, bool isHomeworkDone, int class_id)
+        {
+            int id = 0;
+            string query = $"insert into Students(first_name,last_name,email,password,IsHomeworkSet,IsHomeworkDone,class_id) output INSERTED.student_id " + $" Values  (@first_name,@last_name, @email, @password,@isHomeworkSet,@isHomeworkDone,@class_id)";
+            using (SqlCommand cmd = new SqlCommand(query, connection))
+            {
+                cmd.Parameters.Add("@first_name", System.Data.SqlDbType.NVarChar).Value = first_name;
+                cmd.Parameters.Add("@last_name", System.Data.SqlDbType.NVarChar).Value = last_name;
+                cmd.Parameters.Add("@email", System.Data.SqlDbType.NVarChar).Value = email;
+                cmd.Parameters.Add("@password", System.Data.SqlDbType.NVarChar).Value = password;
+                cmd.Parameters.Add("@isHomeworkSet", System.Data.SqlDbType.NVarChar).Value = isHomeworkSet;
+                cmd.Parameters.Add("@isHomeworkDone", System.Data.SqlDbType.NVarChar).Value = isHomeworkDone;
                 cmd.Parameters.Add("@class_id", System.Data.SqlDbType.NVarChar).Value = class_id;
                 id = (int)cmd.ExecuteScalar();
                 MessageBox.Show("Inserted row with id: " + id);
@@ -233,6 +256,56 @@ JOIN
             return teacher;
         }
 
+        public Student Get_Student_Id(SqlConnection connection, int id)
+        {
+            string query = @"
+        SELECT Students.*, Classes.class_name 
+        FROM Students 
+JOIN 
+    Classes ON Students.class_id = Classes.class_id
+JOIN 
+    Teachers ON Classes.teacher_id = Teachers.teacher_id"";
+        WHERE id=@id";
+
+            int id2 = 0;
+            Student student = null;
+            using (SqlCommand cmd = new SqlCommand(query, connection))
+            {
+                cmd.Parameters.Add("@id", System.Data.SqlDbType.NVarChar).Value = id;
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        id2 = Convert.ToInt32(reader["student_id"]);
+                        string first_name = Convert.ToString(reader["first_name"]);
+                        string last_name = Convert.ToString(reader["last_name"]);
+                        string email = Convert.ToString(reader["email"]);
+                        string password = Convert.ToString(reader["password"]);
+                        bool isHomeworkSet = Convert.ToBoolean(reader["IsHomeworkSet"]);
+                        bool isHomeworkDone = Convert.ToBoolean(reader["IsHomeworkDone"]);
+                        string teacher_first_name = Convert.ToString(reader["teacher_first_name"]);
+                        string teacher_last_name = Convert.ToString(reader["teacher_last_name"]);
+                        string class_name = Convert.ToString(reader["class_name"]);
+                        int class_id = Convert.ToInt32(reader["class_id"]);
+
+
+                        Console.WriteLine("id: " + id);
+                        Console.WriteLine("first_name: " + first_name);
+                        Console.WriteLine("last_name: " + last_name);
+                        Console.WriteLine("email: " + email);
+                        Console.WriteLine("password: " + password);
+                        Console.WriteLine("class id: " + class_id);
+                        student = new Student(id, first_name, last_name, email, password, isHomeworkSet, isHomeworkDone, teacher_first_name, teacher_last_name, class_name, class_id);
+                    }
+                }
+            }
+            if (id2 == 0)
+            {
+                MessageBox.Show("Error: id not exist");
+                return null;
+            }
+            return student;
+        }
 
 
         public Account GetName(SqlConnection connection, string name)
@@ -340,45 +413,45 @@ JOIN
             return account;
         }
 
-    //    public Account GetRole_Id(SqlConnection connection, string name, string email, string password)
-    //    {
-    //        //, Roles.role_name
-    //        //JOIN Roles ON Accounts.role_id = Roles.role_id
-    //        string query = @"
-    //    SELECT Accounts.*
-    //    FROM Accounts 
-    //    WHERE Accounts.name = @name AND Accounts.email = @email AND password = @password
-    //";
-    //        string name2 = "";
-    //        string email2 = "";
-    //        string password2 = "";
-    //        Account account = null;
-    //        using (SqlCommand cmd = new SqlCommand(query, connection))
-    //        {
-    //            cmd.Parameters.Add("@name", System.Data.SqlDbType.NVarChar).Value = name;
-    //            cmd.Parameters.Add("@email", System.Data.SqlDbType.NVarChar).Value = email;
-    //            cmd.Parameters.Add("@password", System.Data.SqlDbType.NVarChar).Value = password;
-    //            using (SqlDataReader reader = cmd.ExecuteReader())
-    //            {
-    //                if (reader.Read())
-    //                {
-    //                    int id = Convert.ToInt32(reader["id"]);
-    //                    name2 = Convert.ToString(reader["name"]);
-    //                    email2 = Convert.ToString(reader["email"]);
-    //                    password2 = Convert.ToString(reader["password"]);
-    //                    //int role_id = Convert.ToInt32(reader["role_id"]);
-    //                    //string roleName = Convert.ToString(reader["role_name"]);
-    //                    account = new Account(id, name2, email2, password2); //, roleName, role_id
-    //                }
-    //            }
-    //        }
-    //        if (name2 == "" || email2 == " " || password2 == "")
-    //        {
-    //            MessageBox.Show("Error: Name or Email or Password are incorrect");
-    //            return null;
-    //        }
-    //        return account;
-    //    }
+        //    public Account GetRole_Id(SqlConnection connection, string name, string email, string password)
+        //    {
+        //        //, Roles.role_name
+        //        //JOIN Roles ON Accounts.role_id = Roles.role_id
+        //        string query = @"
+        //    SELECT Accounts.*
+        //    FROM Accounts 
+        //    WHERE Accounts.name = @name AND Accounts.email = @email AND password = @password
+        //";
+        //        string name2 = "";
+        //        string email2 = "";
+        //        string password2 = "";
+        //        Account account = null;
+        //        using (SqlCommand cmd = new SqlCommand(query, connection))
+        //        {
+        //            cmd.Parameters.Add("@name", System.Data.SqlDbType.NVarChar).Value = name;
+        //            cmd.Parameters.Add("@email", System.Data.SqlDbType.NVarChar).Value = email;
+        //            cmd.Parameters.Add("@password", System.Data.SqlDbType.NVarChar).Value = password;
+        //            using (SqlDataReader reader = cmd.ExecuteReader())
+        //            {
+        //                if (reader.Read())
+        //                {
+        //                    int id = Convert.ToInt32(reader["id"]);
+        //                    name2 = Convert.ToString(reader["name"]);
+        //                    email2 = Convert.ToString(reader["email"]);
+        //                    password2 = Convert.ToString(reader["password"]);
+        //                    //int role_id = Convert.ToInt32(reader["role_id"]);
+        //                    //string roleName = Convert.ToString(reader["role_name"]);
+        //                    account = new Account(id, name2, email2, password2); //, roleName, role_id
+        //                }
+        //            }
+        //        }
+        //        if (name2 == "" || email2 == " " || password2 == "")
+        //        {
+        //            MessageBox.Show("Error: Name or Email or Password are incorrect");
+        //            return null;
+        //        }
+        //        return account;
+        //    }
 
 
 
@@ -402,6 +475,17 @@ JOIN
                 cmd.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Teacher was deleted with id: " + id);
+            }
+        }
+
+        public void DeleteStudent(SqlConnection connection, int id)
+        {
+            string query = $"DELETE FROM Students WHERE  id = @id";
+            using (SqlCommand cmd = new SqlCommand(query, connection))
+            {
+                cmd.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Student was deleted with id: " + id);
             }
         }
 
@@ -482,7 +566,7 @@ JOIN
         }
 
 
-        public Teacher GetTeacherByFirst_NameLast_NameEmailPassword(SqlConnection connection, string first_name,string last_name, string email, string password)
+        public Teacher GetTeacherByFirst_NameLast_NameEmailPassword(SqlConnection connection, string first_name, string last_name, string email, string password)
         {
             string query = @"
         SELECT Teachers.*
@@ -516,7 +600,7 @@ JOIN
                     }
                 }
             }
-            if (first_name2 == "" || last_name2=="" || email2 == " " || password2 == "")
+            if (first_name2 == "" || last_name2 == "" || email2 == " " || password2 == "")
             {
                 MessageBox.Show("Error: First Name or Last Name or Email or Password are incorrect");
                 return null;
@@ -525,7 +609,6 @@ JOIN
         }
 
 
-       
 
     }
 }

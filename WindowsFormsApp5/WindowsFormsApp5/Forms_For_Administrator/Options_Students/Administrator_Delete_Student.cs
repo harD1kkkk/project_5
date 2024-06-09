@@ -11,28 +11,52 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp5.Entity;
 
-
-namespace WindowsFormsApp5.Forms_For_Administrator
+namespace WindowsFormsApp5.Forms_For_Administrator.Options_Students
 {
-    public partial class Administrator_Show_All_Students : Form
+    public partial class Administrator_Delete_Student : Form
     {
         private readonly AccountController accountController = new AccountController();
-        public Administrator_Show_All_Students()
+        public Administrator_Delete_Student()
         {
             InitializeComponent();
             ShowAllStudents();
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            ShowAllStudents();
+            string str = textBox1.Text;
+            int id = Convert.ToInt32(str);
+            Student student = accountController.Get_Student_Id(id);
 
+            if (student != null)
+            {
+                accountController.DeleteStudent(id);
+                List<Student> students = accountController.GetAllStudents();
+                students.ForEach(student1 =>
+                {
+                    ListViewItem item = new ListViewItem(student1.Id.ToString());
+                    item.SubItems.Add(student1.Name);
+                    item.SubItems.Add(student1.Email);
+                    item.SubItems.Add(student1.Password);
+                    //item.SubItems.Add(account1.Role_Id.ToString());
+                    listView1.Items.Add(item);
+                });
+
+                listView1.Items.Clear();
+                ShowAllAccounts();
+            }
+            else
+            {
+                MessageBox.Show("Id not exist.");
+            }
         }
 
         private void ShowAllStudents()
         {
             Response<List<Student>> response = accountController.GetAllStudents();
             listView1.Items.Clear();
-            if(response.errorMessage!=null)
+            if (response.errorMessage != null)
             {
                 MessageBox.Show(response.errorMessage);
                 return;
@@ -54,6 +78,5 @@ namespace WindowsFormsApp5.Forms_For_Administrator
                 listView1.Items.Add(item);
             });
         }
-
     }
 }

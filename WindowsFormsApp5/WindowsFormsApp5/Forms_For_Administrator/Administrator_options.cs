@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp5.Forms_For_Administrator.Options_Students;
 using WindowsFormsApp5.Forms_For_Teacher;
 
 namespace WindowsFormsApp5.Forms_For_Administrator
@@ -80,11 +81,13 @@ namespace WindowsFormsApp5.Forms_For_Administrator
 
         private void button9_Click(object sender, EventArgs e)
         {
-            Form show_All_Students = new Administrator_Show_All_Students();
-            show_All_Students.StartPosition = FormStartPosition.Manual;
-            show_All_Students.Height = this.Height;
-            show_All_Students.Width = this.Width;
-            show_All_Students.Location = this.Location;
+            Form show_All_Students = new Administrator_Show_All_Students
+            {
+                StartPosition = FormStartPosition.Manual,
+                Height = this.Height,
+                Width = this.Width,
+                Location = this.Location
+            };
             show_All_Students.Show();
         }
 
@@ -94,6 +97,16 @@ namespace WindowsFormsApp5.Forms_For_Administrator
         }
 
         private void button10_Click(object sender, EventArgs e)
+        {
+            Form administrator_Create_Student = new Administrator_Create_Student();
+            administrator_Create_Student.StartPosition = FormStartPosition.Manual;
+            administrator_Create_Student.Height = this.Height;
+            administrator_Create_Student.Width = this.Width;
+            administrator_Create_Student.Location = this.Location;
+            administrator_Create_Student.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
         {
 
         }

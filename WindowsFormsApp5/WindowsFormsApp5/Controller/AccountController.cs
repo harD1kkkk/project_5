@@ -29,6 +29,10 @@ namespace ConsoleApp1.Controller
             return accountService.CreateNewTeacher(first_name, last_name, email, password, class_id);
         }
 
+        public int CreateNewStudent(string first_name, string last_name, string email, string password, bool isHomeworkSet, bool isHomeworkDone, int class_id)
+        {
+            return accountService.CreateNewStudent(first_name, last_name, email, password, isHomeworkSet, isHomeworkDone, class_id);
+        }
 
         public Account GetName(string name)
         {
@@ -55,6 +59,11 @@ namespace ConsoleApp1.Controller
             return accountService.Get_Teacher_Id(id);
         }
 
+        public Student Get_Student_Id(int id)
+        {
+            return accountService.Get_Student_Id(id);
+        }
+
         //public int GetRole_Id(string name, string email, string password)
         //{
         //    return accountService.GetRole_id(name, email, password);
@@ -71,22 +80,38 @@ namespace ConsoleApp1.Controller
             accountService.DeleteTeacher(id);
         }
 
+        public void DeleteStudent(int id)
+        {
+            accountService.DeleteStudent(id);
+        }
+
 
         public void UpdateAccount(int id, string name, string email, string password) //, int role_id
         {
             accountService.UpdateAccount(id, name, email, password); //, role_id
         }
 
-        public void UpdateTeacher(int id,string first_name, string last_name, string email, string password, int class_id)
+        public void UpdateTeacher(int id, string first_name, string last_name, string email, string password, int class_id)
         {
-            accountService.UpdateTeacher(id,first_name, last_name, email, password, class_id);
+            accountService.UpdateTeacher(id, first_name, last_name, email, password, class_id);
         }
 
 
-        public List<Student> GetAllStudents()
+        public Response<List<Student>> GetAllStudents()
         {
-            return accountService.GetAllStudents();
+            Response<List<Student>> response = new Response<List<Student>>();
+            try
+            {
+                response.Obj = accountService.GetAllStudents();
+            }
+            catch (Exception ex)
+            {
+                response.errorMessage = ex.Message;
+            }
+            return response;
         }
+
+
 
 
 

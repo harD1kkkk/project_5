@@ -67,5 +67,15 @@ namespace WindowsFormsApp5.Forms_For_Administrator
         {
 
         }
+
+        private void Update_Director_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

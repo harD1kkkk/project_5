@@ -41,3 +41,4 @@ C:\Users\student\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\Window
 C:\Users\student\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Forms_For_Teacher.Teacher_options.resources
 C:\Users\student\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Login_Director.resources
 C:\Users\student\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Login_Administrator.resources
+C:\Users\student\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Forms_For_Administrator.Options_Students.Administrator_Create_Student.resources

@@ -45,5 +45,10 @@ namespace WindowsFormsApp5.Forms_For_Administrator
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

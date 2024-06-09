@@ -93,6 +93,18 @@
     <Compile Include="Forms_For_Administrator\Options_Director\Update_Director.Designer.cs">
       <DependentUpon>Update_Director.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms_For_Administrator\Options_Students\Administrator_Create_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_For_Administrator\Options_Students\Administrator_Create_Student.Designer.cs">
+      <DependentUpon>Administrator_Create_Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_For_Administrator\Options_Students\Administrator_Delete_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_For_Administrator\Options_Students\Administrator_Delete_Student.Designer.cs">
+      <DependentUpon>Administrator_Delete_Student.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms_For_Administrator\Options_Students\Administrator_Show_All_Students.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +196,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_For_Administrator\Options_Director\Update_Director.resx">
       <DependentUpon>Update_Director.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_For_Administrator\Options_Students\Administrator_Create_Student.resx">
+      <DependentUpon>Administrator_Create_Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_For_Administrator\Options_Students\Administrator_Delete_Student.resx">
+      <DependentUpon>Administrator_Delete_Student.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_For_Administrator\Options_Students\Administrator_Show_All_Students.resx">
       <DependentUpon>Administrator_Show_All_Students.cs</DependentUpon>

@@ -73,7 +73,7 @@ namespace ConsoleApp1.Service
             return 0;
         }
 
-        public int CreateNewTeacher(string first_name,string last_name, string email, string password,int class_id)
+        public int CreateNewTeacher(string first_name, string last_name, string email, string password, int class_id)
         {
             using (SqlConnection conection = new SqlConnection(connectionString))
             {
@@ -81,7 +81,26 @@ namespace ConsoleApp1.Service
                 try
                 {
                     conection.Open();
-                    accountRepository.CreateNewTeacher(conection, first_name, last_name, email,password,class_id);
+                    accountRepository.CreateNewTeacher(conection, first_name, last_name, email, password, class_id);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+
+            return 0;
+        }
+
+        public int CreateNewStudent(string first_name, string last_name, string email, string password, bool isHomeworkSet, bool isHomeworkDone, int class_id)
+        {
+            using (SqlConnection conection = new SqlConnection(connectionString))
+            {
+
+                try
+                {
+                    conection.Open();
+                    accountRepository.CreateNewStudent(conection, first_name, last_name, email, password, isHomeworkSet, isHomeworkSet, class_id);
                 }
                 catch (Exception ex)
                 {
@@ -136,6 +155,29 @@ namespace ConsoleApp1.Service
                 }
             }
             return teacher;
+
+        }
+
+        public Student Get_Student_Id(int id)
+        {
+            Student student = null;
+            using (SqlConnection conection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conection.Open();
+                    student = accountRepository.Get_Student_Id(conection, id);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                if (student == null)
+                {
+                    MessageBox.Show("Student with id: " + id + " not exist");
+                }
+            }
+            return student;
 
         }
 
@@ -275,6 +317,30 @@ namespace ConsoleApp1.Service
             }
         }
 
+        public void DeleteStudent(int id)
+        {
+            if (Get_Student_Id(id) == null)
+            {
+                MessageBox.Show("Error: Student with id: " + id + "not exist");
+            }
+            else
+            {
+                using (SqlConnection conection = new SqlConnection(connectionString))
+                {
+                    try
+                    {
+                        conection.Open();
+                        accountRepository.DeleteStudent(conection, id);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+            }
+        }
+
+
         public void UpdateAccount(int id, string name, string email, string password) //, int role_id
         {
             if (GetId(id) == null)
@@ -298,7 +364,7 @@ namespace ConsoleApp1.Service
             }
         }
 
-        public void UpdateTeacher(int id,string first_name, string last_name, string email, string password, int class_id)
+        public void UpdateTeacher(int id, string first_name, string last_name, string email, string password, int class_id)
         {
             if (Get_Teacher_Id(id) == null)
             {

@@ -29,8 +29,14 @@ namespace WindowsFormsApp5.Forms_For_HeadTeacher
 
         private void ShowAllStudents()
         {
+            Response<List<Student>> response = accountController.GetAllStudents();
             listView1.Items.Clear();
-            List<Student> students = accountController.GetAllStudents();
+            if (response.errorMessage != null)
+            {
+                MessageBox.Show(response.errorMessage);
+                return;
+            }
+            List<Student> students = response.Obj;
             students.ForEach(student =>
             {
                 ListViewItem item = new ListViewItem(student.Id.ToString());
@@ -39,11 +45,18 @@ namespace WindowsFormsApp5.Forms_For_HeadTeacher
                 item.SubItems.Add(student.Email);
                 item.SubItems.Add(student.Password);
                 item.SubItems.Add(student.IsHomeworkDone ? "COMPLETED" : "NOT COMPLETED");
-                item.SubItems.Add(student.NameTeacher);
+                item.SubItems.Add(student.Teacher_First_Name);
+                item.SubItems.Add(student.Teacher_Last_Name);
                 item.SubItems.Add(student.Class_name);
+                item.SubItems.Add(student.Class_id.ToString());
                 listView1.Items.Add(item);
             });
         }
 
+
+        private void listView1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

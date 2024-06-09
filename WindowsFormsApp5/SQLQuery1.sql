@@ -13,10 +13,10 @@
 --IF OBJECT_ID('dbo.Roles', 'U') IS NOT NULL
 --  DROP TABLE dbo.Roles;
 
---DROP TABLE IF EXISTS Students;
---DROP TABLE IF EXISTS Classes;
---DROP TABLE IF EXISTS Teachers;
---DROP TABLE IF EXISTS Accounts;
+DROP TABLE IF EXISTS Classes;
+DROP TABLE IF EXISTS Teachers;
+DROP TABLE IF EXISTS Accounts;
+DROP TABLE IF EXISTS Students;
 --DROP TABLE IF EXISTS Roles;
 
 
@@ -25,23 +25,7 @@
 --    role_name NVARCHAR(255) NOT NULL
 --);
 
-CREATE TABLE Classes (
-    class_id INT IDENTITY(1,1) PRIMARY KEY,
-    class_name NVARCHAR(255),
-    teacher_id INT,
-    FOREIGN KEY (teacher_id) REFERENCES Teachers(teacher_id)
-);
-
-CREATE TABLE Teachers (
-    teacher_id INT IDENTITY(1,1) PRIMARY KEY,
-    first_name NVARCHAR(255),
-    last_name NVARCHAR(255),
-    email NVARCHAR(255) NOT NULL UNIQUE,
-    password NVARCHAR(255) NOT NULL UNIQUE,
-    class_id INT,
-    FOREIGN KEY (class_id) REFERENCES Classes(class_id)
-);
-
+    
 
 
 
